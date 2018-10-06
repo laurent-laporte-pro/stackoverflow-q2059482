@@ -1,32 +1,56 @@
-demo
-====
+Temporarily modify the current process's environment
+====================================================
 
-.. image:: https://img.shields.io/pypi/v/demo.svg
-    :target: https://pypi.python.org/pypi/demo
-    :alt: Latest PyPI version
+This is a StackOverflow question study which helps understanding: `Temporarily modify the current process's environment <https://stackoverflow.com/a/34333710/1513933>`_.
 
-.. image:: https://travis-ci.org/borntyping/cookiecutter-pypackage-minimal.png
-   :target: https://travis-ci.org/borntyping/cookiecutter-pypackage-minimal
-   :alt: Latest Travis CI build status
+Getting Started
+---------------
 
-temporarily modify the current process's environment
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+To clone the project from Github, you can do:
+
+::
+
+    git clone https://github.com/laurent-laporte-pro/stackoverflow-q2059482.git
+
+Prerequisites
+-------------
+
+To see this study in action, you need Python (version 2 or 3), and (optionally) the `PyTest <https://docs.pytest.org>`_ framework.
+
+Create and activate a `virtualenv <https://virtualenv.pypa.io>`_ an run:
+
+::
+
+    pip install pytest
+
+Installing
+----------
+
+This library in not available on `PyPi <https://pypi.org/>`_, you need to install it from source.
+
+::
+
+    pip install -e .
 
 Usage
 -----
 
-Installation
-------------
+.. todo: write Usage
 
-Requirements
-^^^^^^^^^^^^
-
-Compatibility
--------------
-
-Licence
--------
 
 Authors
 -------
 
-`demo` was written by `Laurent LAPORTE <laurent.laporte.pro@gmail.com>`_.
+* **Laurent LAPORTE** - *Initial work* - `GitHub profile <https://laurent-laporte-pro.github.io/>`_
+
+License
+-------
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+Acknowledgments
+---------------
+
+* `Sridhar Ratnakumar <https://stackoverflow.com/users/55246/sridhar-ratnakumar>`_   Original Poster on StackOverflow.
