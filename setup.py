@@ -42,6 +42,6 @@ setup(
         'Programming Language :: Python :: 3.7',
     ],
 
-    setup_requires=["pytest-runner"],
     tests_require=["pytest"],
+    extras_require={'test': ['pytest', 'tox']}
 )
